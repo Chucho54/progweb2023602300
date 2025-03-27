@@ -1,13 +1,13 @@
 <?php
-        function suma($a,$b){
+        function suma1($a,$b){
         return $a+$b;
 }
 function suma($d,$e){
         return $d+$e;
 }
 function dividie($a,$b,$d,$e){
-        $resultadosum0=suma($a,$b);
-        $resultadosuma1=suma($c,$e);
+        $resultadosum0=suma1($a,$b);
+        $resultadosuma1=suma($d,$e);
         return $resultadosum0/$resultadosuma1;
 }
 
