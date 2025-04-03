@@ -1,0 +1,24 @@
+<html>
+    <head> <meta charset="utf-12">
+        <title>Arreglos</title>
+    </head>
+    <body>
+        <h2>Resultados</h2>
+        <script>
+            const datos = [8, "El Caracol ", true, 15, " Persigue",false, 14, " a Mozart", false,];
+            let suma = 0;
+            let texto = "";
+            let boleano = true;
+
+            for (let dato of datos) {
+                if (typeof dato === "number") suma+=dato;
+                if (typeof dato === "string") texto+=dato;
+                if (typeof dato === "bolean") boleano = boleano && dato;
+            }
+
+            document.write("<p>Suma de Numeros="  + suma + "</p>");
+            document.write("<p>Concatenacion de Cadenas="  + texto + "</p>");
+            document.write("<p>AND entre Boleanos="  + boleano + "</p>");
+        </script>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+        <head>
+            <meta charset="utf-8">
+        <title>Meses del año
+        </title>
+      <body>
+            <h1>Meses del año</h1>
+            <div id="meses"></div>
+            <script>
+                const meses = [
+                    "Enero: Primero",
+                    "Febreo: Segundo",
+                    "Marzo: Tercero",
+                    "Abril: Cuarto",
+                    "Mayo: Quinto",
+                    "Junio: Sexto",
+                    "Julio: Septimo",
+                    "Agosto: Octavo",
+                    "Septiembre: Noveno",
+                    "Octubre: Decimo",
+                    "Noviembre: Onceavo",
+                    "Diciembre: Doceavo",
+                ];
+                document.getElementById("meses").innerHTML = meses.map(mes => `<p>${mes}</p>`).join('');
+                </script>
+        </body>
+    </head>
+</html>
